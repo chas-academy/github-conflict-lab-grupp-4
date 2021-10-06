@@ -2,3 +2,16 @@ h1 {
     font-size: 60px;
     color: purple;
 }
+
+p {
+    animation-name: p;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    font-size: 40px;
+}
+
+@keyframes p {
+    0% {opacity: 0%};
+    100% {opacity: 100%};
+}
