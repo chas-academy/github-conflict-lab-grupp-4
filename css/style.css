@@ -9,6 +9,11 @@ p {
     animation-direction: alternate;
     animation-iteration-count: infinite;
     font-size: 40px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
 }
 
 @keyframes p {
